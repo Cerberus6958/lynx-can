@@ -1,0 +1,8 @@
+# 1 ms RTOS tick so the 5 ms (200 Hz) test message can be scheduled accurately
+CONFIG_FREERTOS_HZ=1000
+
+# Legacy TWAI driver still works in ESP-IDF 6.x; silence its deprecation warning
+CONFIG_TWAI_SUPPRESS_DEPRECATE_WARN=y
+
+# ESP32 DevKit boards have 4 MB flash
+CONFIG_ESPTOOLPY_FLASHSIZE_4MB=y
