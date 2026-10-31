@@ -1,0 +1,1532 @@
+
+[node 1] RUNNING TEC=0 REC=0 txq=4 rxq=0 tx_fail=1503 rx_missed=0 arb_lost=0 bus_err=36067 load~18.0%
+  id     name        rx/s  lost  fast  qfull  min_gap_us  max_gap_us
+  0x050  imu_like     200  3581     0   2078        4990        5011
+  0x0A0  vcu_cmd       50   895     0    519       19992       20012
+  0x100  wheel_spd    100  1790     0   1043        9745       10258
+  0x300  bms_like      10   179     0    101       99985      100013
+  0x600  diag           1    18     0     12      999974      999974
+
+[node 1] RUNNING TEC=0 REC=0 txq=4 rxq=0 tx_fail=1503 rx_missed=0 arb_lost=0 bus_err=36067 load~18.0%
+  id     name        rx/s  lost  fast  qfull  min_gap_us  max_gap_us
+  0x050  imu_like     200  3581     0   2078        4988        5015
+  0x0A0  vcu_cmd       50   895     0    519       19992       20016
+  0x100  wheel_spd    100  1790     0   1043        9739       10265
+  0x300  bms_like      10   179     0    101       99980      100025
+  0x600  diag           1    18     0     12     1000022     1000022
+
+[node 1] RUNNING TEC=0 REC=0 txq=4 rxq=0 tx_fail=1503 rx_missed=0 arb_lost=0 bus_err=36067 load~18.0%
+  id     name        rx/s  lost  fast  qfull  min_gap_us  max_gap_us
+  0x050  imu_like     200  3581     0   2078        4991        5013
+  0x0A0  vcu_cmd       50   895     0    519       19986       20018
+  0x100  wheel_spd    100  1790     0   1043        9741       10258
+  0x300  bms_like      10   179     0    101       99988      100013
+  0x600  diag           1    18     0     12      999970      999970
+
+[node 1] RUNNING TEC=0 REC=0 txq=4 rxq=0 tx_fail=1503 rx_missed=0 arb_lost=0 bus_err=36067 load~18.0%
+  id     name        rx/s  lost  fast  qfull  min_gap_us  max_gap_us
+  0x050  imu_like     200  3581     0   2078        4988        5011
+  0x0A0  vcu_cmd       50   895     0    519       19990       20010
+  0x100  wheel_spd    100  1790     0   1043        9740       10264
+  0x300  bms_like      10   179     0    101       99981      100010
+  0x600  diag           1    18     0     12     1000002     1000002
+
+[node 1] RUNNING TEC=0 REC=0 txq=4 rxq=0 tx_fail=1503 rx_missed=0 arb_lost=0 bus_err=36067 load~18.0%
+  id     name        rx/s  lost  fast  qfull  min_gap_us  max_gap_us
+  0x050  imu_like     200  3581     0   2078        4991        5009
+  0x0A0  vcu_cmd       50   895     0    519       19986       20018
+  0x100  wheel_spd    100  1790     0   1043        9743       10256
+  0x300  bms_like      10   179     0    101       99981      100013
+  0x600  diag           1    18     0     12     1000000     1000000
+
+[node 1] RUNNING TEC=0 REC=0 txq=4 rxq=0 tx_fail=1503 rx_missed=0 arb_lost=0 bus_err=36067 load~18.0%
+  id     name        rx/s  lost  fast  qfull  min_gap_us  max_gap_us
+  0x050  imu_like     200  3581     0   2078        4991        5011
+  0x0A0  vcu_cmd       50   895     0    519       19984       20012
+  0x100  wheel_spd    100  1790     0   1043        9745       10259
+  0x300  bms_like      10   179     0    101       99980      100022
+  0x600  diag           1    18     0     12     1000022     1000022
+
+[node 1] RUNNING TEC=0 REC=0 txq=4 rxq=0 tx_fail=1503 rx_missed=0 arb_lost=0 bus_err=36067 load~18.0%
+  id     name        rx/s  lost  fast  qfull  min_gap_us  max_gap_us
+  0x050  imu_like     200  3581     0   2078        4988        5012
+  0x0A0  vcu_cmd       50   895     0    519       19990       20016
+  0x100  wheel_spd    100  1790     0   1043        9741       10262
+  0x300  bms_like      10   179     0    101       99987      100013
+  0x600  diag           1    18     0     12      999978      999978
+
+[node 1] RUNNING TEC=0 REC=0 txq=4 rxq=0 tx_fail=1503 rx_missed=0 arb_lost=0 bus_err=36067 load~18.0%
+  id     name        rx/s  lost  fast  qfull  min_gap_us  max_gap_us
+  0x050  imu_like     200  3581     0   2078        4987        5014
+  0x0A0  vcu_cmd       50   895     0    519       19984       20016
+  0x100  wheel_spd    100  1790     0   1043        9736       10262
+  0x300  bms_like      10   179     0    101       99984      100019
+  0x600  diag           1    18     0     12     1000002     1000002
+
+[node 1] RUNNING TEC=0 REC=0 txq=4 rxq=0 tx_fail=1503 rx_missed=0 arb_lost=0 bus_err=36067 load~18.0%
+  id     name        rx/s  lost  fast  qfull  min_gap_us  max_gap_us
+  0x050  imu_like     200  3581     0   2078        4989        5013
+  0x0A0  vcu_cmd       50   895     0    519       19990       20014
+  0x100  wheel_spd    100  1790     0   1043        9743       10259
+  0x300  bms_like      10   179     0    101       99976      100021
+  0x600  diag           1    18     0     12     1000006     1000006
+
+[node 1] RUNNING TEC=0 REC=0 txq=4 rxq=0 tx_fail=1503 rx_missed=0 arb_lost=0 bus_err=36067 load~18.0%
+  id     name        rx/s  lost  fast  qfull  min_gap_us  max_gap_us
+  0x050  imu_like     200  3581     0   2078        4985        5011
+  0x0A0  vcu_cmd       50   895     0    519       19984       20018
+  0x100  wheel_spd    100  1790     0   1043        9741       10260
+  0x300  bms_like      10   179     0    101       99981      100019
+  0x600  diag           1    18     0     12     1000010     1000010
+
+[node 1] RUNNING TEC=0 REC=0 txq=4 rxq=0 tx_fail=1503 rx_missed=0 arb_lost=0 bus_err=36067 load~18.0%
+  id     name        rx/s  lost  fast  qfull  min_gap_us  max_gap_us
+  0x050  imu_like     200  3581     0   2078        4990        5012
+  0x0A0  vcu_cmd       50   895     0    519       19988       20016
+  0x100  wheel_spd    100  1790     0   1043        9739       10256
+  0x300  bms_like      10   179     0    101       99990      100014
+  0x600  diag           1    18     0     12      999990      999990
+
+[node 1] RUNNING TEC=0 REC=0 txq=4 rxq=0 tx_fail=1503 rx_missed=0 arb_lost=0 bus_err=36067 load~18.0%
+  id     name        rx/s  lost  fast  qfull  min_gap_us  max_gap_us
+  0x050  imu_like     200  3581     0   2078        4987        5013
+  0x0A0  vcu_cmd       50   895     0    519       19986       20016
+  0x100  wheel_spd    100  1790     0   1043        9734       10262
+  0x300  bms_like      10   179     0    101       99983      100009
+  0x600  diag           1    18     0     12      999992      999992
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+
+[node 1] RUNNING TEC=136 REC=0 txq=2 rxq=0 tx_fail=1512 rx_missed=0 arb_lost=0 bus_err=36288 load~17.2%
+!! BUS OFF; starting recovery
+  id     name        rx/s  lost  fast  qfull  min_gap_us  max_gap_us
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+  0x050  imu_like     186  3581     0   2092        4990        5011
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+  0x0A0  vcu_cmd       47   895     0    524       19988       20010
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+  0x100  wheel_spd     94  1790     0   1052        9739       10261
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+  0x300  bms_like      10   179     0    102       99992      100013
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+  0x600  diag           1    18     0     13     1000016     1000016
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+
+[node 1] RUNNING TEC=136 REC=0 txq=2 rxq=0 tx_fail=1596 rx_missed=0 arb_lost=0 bus_err=38305 load~3.8%
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+  id     name        rx/s  lost  fast  qfull  min_gap_us  max_gap_us
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+  0x050  imu_like       0  3581     0   2208           0           0
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+  0x0A0  vcu_cmd        0   895     0    552           0           0
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+  0x100  wheel_spd      0  1790     0   1111           0           0
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+  0x300  bms_like       0   179     0    107           0           0
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+  0x600  diag           0    18     0     14           0           0
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+
+[node 1] RUNNING TEC=136 REC=0 txq=2 rxq=0 tx_fail=1680 rx_missed=0 arb_lost=0 bus_err=40325 load~3.8%
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+  id     name        rx/s  lost  fast  qfull  min_gap_us  max_gap_us
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+  0x050  imu_like       0  3581     0   2324           0           0
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+  0x0A0  vcu_cmd        0   895     0    581           0           0
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+  0x100  wheel_spd      0  1790     0   1168           0           0
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+  0x300  bms_like       0   179     0    114           0           0
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+  0x600  diag           0    18     0     15           0           0
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+
+[node 1] RUNNING TEC=136 REC=0 txq=2 rxq=0 tx_fail=1764 rx_missed=0 arb_lost=0 bus_err=42344 load~3.7%
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+  id     name        rx/s  lost  fast  qfull  min_gap_us  max_gap_us
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+  0x050  imu_like       0  3581     0   2441           0           0
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+  0x0A0  vcu_cmd        0   895     0    609           0           0
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+  0x100  wheel_spd      0  1790     0   1226           0           0
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+  0x300  bms_like       0   179     0    121           0           0
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+  0x600  diag           0    18     0     16           0           0
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+
+[node 1] STOPPED TEC=0 REC=0 txq=0 rxq=0 tx_fail=1834 rx_missed=0 arb_lost=0 bus_err=44020 load~5.9%
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+  id     name        rx/s  lost  fast  qfull  min_gap_us  max_gap_us
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+  0x050  imu_like      30  4257     0   2537        4993     3384996
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+  0x0A0  vcu_cmd        8  1064     0    631       19992     3399994
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+  0x100  wheel_spd     15  2128     0   1275        9741     3390243
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+  0x300  bms_like       1   213     0    125     3500007     3500007
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+  0x600  diag           0    18     0     16           0           0
+!! ERROR PASSIVE (TEC or REC >= 128)
+!! BUS OFF; starting recovery
+!! back to ERROR ACTIVE
+!! recovered; restarting controller
+
+[node 1] RUNNING TEC=0 REC=0 txq=4 rxq=0 tx_fail=1838 rx_missed=0 arb_lost=0 bus_err=44116 load~16.3%
+  id     name        rx/s  lost  fast  qfull  min_gap_us  max_gap_us
+  0x050  imu_like     180  4385     0   2547        4991      644996
+  0x0A0  vcu_cmd       44  1096     0    634       19990      659994
+  0x100  wheel_spd     89  2192     0   1279        9743      649750
+  0x300  bms_like       8   220     0    126       99990      799991
+  0x600  diag           0    18     0     16           0           0
+
+[node 1] RUNNING TEC=0 REC=0 txq=4 rxq=0 tx_fail=1838 rx_missed=0 arb_lost=0 bus_err=44116 load~18.0%
+  id     name        rx/s  lost  fast  qfull  min_gap_us  max_gap_us
+  0x050  imu_like     200  4385     0   2547        4989        5011
+  0x0A0  vcu_cmd       50  1096     0    634       19986       20012
+  0x100  wheel_spd    100  2192     0   1279        9746       10256
+  0x300  bms_like      10   220     0    126       99988      100010
+  0x600  diag           1    23     0     16     5999988     5999988
+
+[node 1] RUNNING TEC=0 REC=0 txq=4 rxq=0 tx_fail=1838 rx_missed=0 arb_lost=0 bus_err=44116 load~18.0%
+  id     name        rx/s  lost  fast  qfull  min_gap_us  max_gap_us
+  0x050  imu_like     200  4385     0   2547        4989        5010
+  0x0A0  vcu_cmd       50  1096     0    634       19980       20014
+  0x100  wheel_spd    100  2192     0   1279        9735       10266
+  0x300  bms_like      10   220     0    126       99980      100011
+  0x600  diag           1    23     0     16     1000014     1000014
+
+[node 1] RUNNING TEC=0 REC=0 txq=4 rxq=0 tx_fail=1838 rx_missed=0 arb_lost=0 bus_err=44116 load~18.0%
+  id     name        rx/s  lost  fast  qfull  min_gap_us  max_gap_us
+  0x050  imu_like     200  4385     0   2547        4990        5010
+  0x0A0  vcu_cmd       50  1096     0    634       19990       20014
+  0x100  wheel_spd    100  2192     0   1279        9743       10256
+  0x300  bms_like      10   220     0    126       99983      100015
+  0x600  diag           1    23     0     16     1000002     1000002
+
+[node 1] RUNNING TEC=0 REC=0 txq=4 rxq=0 tx_fail=1838 rx_missed=0 arb_lost=0 bus_err=44116 load~18.0%
+  id     name        rx/s  lost  fast  qfull  min_gap_us  max_gap_us
+  0x050  imu_like     200  4385     0   2547        4986        5012
+  0x0A0  vcu_cmd       50  1096     0    634       19988       20014
+  0x100  wheel_spd    100  2192     0   1279        9744       10258
+  0x300  bms_like      10   220     0    126       99988      100012
+  0x600  diag           1    23     0     16     1000002     1000002
+
+[node 1] RUNNING TEC=0 REC=0 txq=4 rxq=0 tx_fail=1838 rx_missed=0 arb_lost=0 bus_err=44116 load~18.0%
+  id     name        rx/s  lost  fast  qfull  min_gap_us  max_gap_us
+  0x050  imu_like     200  4385     0   2547        4990        5012
+  0x0A0  vcu_cmd       50  1096     0    634       19988       20012
+  0x100  wheel_spd    100  2192     0   1279        9740       10262
+  0x300  bms_like      10   220     0    126       99983      100007
+  0x600  diag           1    23     0     16      999996      999996
+
+[node 1] RUNNING TEC=0 REC=0 txq=4 rxq=0 tx_fail=1838 rx_missed=0 arb_lost=0 bus_err=44116 load~18.0%
+  id     name        rx/s  lost  fast  qfull  min_gap_us  max_gap_us
+  0x050  imu_like     200  4385     0   2547        4991        5011
+  0x0A0  vcu_cmd       50  1096     0    634       19990       20014
+  0x100  wheel_spd    100  2192     0   1279        9744       10260
+  0x300  bms_like      10   220     0    126       99984      100009
+  0x600  diag           1    23     0     16      999990      999990

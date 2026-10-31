@@ -2,10 +2,14 @@
 // Flash board A with NODE=1 and board B with NODE=2.
 // Each node transmits its own schedule, receives everything, and prints
 // per-ID stats + controller error state once per second.
+//
+// Printing happens in its own low-priority task. The RX task only copies a
+// snapshot of the stats, so slow UART output never delays frame timestamps.
 
 #include <stdio.h>
 #include <stdint.h>
 #include <stdbool.h>
+#include <string.h>
 #include <inttypes.h>
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
@@ -24,8 +28,8 @@
 #define STRESS_HZ 0       // >0 = node 1 also sends filler ID 0x200 at this rate to raise bus load
 #endif
 
-#define CAN_TX_PIN      GPIO_NUM_5     // ESP32 TX -> transceiver D / CTX
-#define CAN_RX_PIN      GPIO_NUM_4     // ESP32 RX <- transceiver R / CRX
+#define CAN_TX_PIN      GPIO_NUM_4     // ESP32 TX -> transceiver D / CTX
+#define CAN_RX_PIN      GPIO_NUM_5     // ESP32 RX <- transceiver R / CRX
 #define BITRATE         500000.0f
 #define BITS_PER_FRAME  125.0f         // 8-byte std frame incl. typical stuffing + IFS
 #define FILLER_ID       0x200
@@ -63,8 +67,13 @@ typedef struct {
 } RxStats;
 
 static TxState tx[N];
-static RxStats rx[N];
+static RxStats rx[N];                            // owned by rx_task
 static volatile uint32_t tx_frames_total = 0;   // written by tx_task only
+
+// Snapshot handed from rx_task to report_task once per second
+static RxStats snap[N];
+static uint32_t snap_rx_window = 0;
+static TaskHandle_t report_handle = NULL;
 
 static int index_of(uint32_t id) {
     for (int i = 0; i < (int)N; i++) {
@@ -183,6 +192,7 @@ static const char *state_name(twai_state_t s) {
     }
 }
 
+// Prints from the snapshot only; never touches the live rx[] stats
 static void report(uint32_t rx_frames_window) {
     static uint32_t last_tx_total = 0;
     uint32_t tx_total = tx_frames_total;
@@ -202,20 +212,24 @@ static void report(uint32_t rx_frames_window) {
     printf("  id     name        rx/s  lost  fast  qfull  min_gap_us  max_gap_us\n");
 
     for (int i = 0; i < (int)N; i++) {
-        RxStats *s = &rx[i];
+        const RxStats *s = &snap[i];
         printf("  0x%03" PRIX32 "  %-10s  %4" PRIu32 "  %4" PRIu32 "  %4" PRIu32
                "  %5" PRIu32 "  %10" PRIu32 "  %10" PRIu32 "\n",
                kSchedule[i].id, kSchedule[i].name, s->frames, s->lost, s->too_fast,
                tx[i].queue_full, s->min_gap_us == UINT32_MAX ? 0 : s->min_gap_us,
                s->max_gap_us);
-        // reset per-window stats; keep counter tracking
-        s->frames = 0;
-        s->min_gap_us = UINT32_MAX;
-        s->max_gap_us = 0;
     }
 }
 
-// ---------------- receive task (owns all RX stats + prints report) ----------------
+// ---------------- report task (lowest priority; does all the slow printing) ----------------
+static void report_task(void *arg) {
+    while (1) {
+        ulTaskNotifyTake(pdTRUE, portMAX_DELAY);   // wait for rx_task to hand over a snapshot
+        report(snap_rx_window);
+    }
+}
+
+// ---------------- receive task (owns all RX stats; never prints) ----------------
 static void rx_task(void *arg) {
     for (int i = 0; i < (int)N; i++) rx[i].min_gap_us = UINT32_MAX;
 
@@ -249,8 +263,20 @@ static void rx_task(void *arg) {
 
         if (esp_timer_get_time() >= next_report) {
             next_report += 1000000ULL;
-            report(rx_frames_window);
+
+            // Fast copy for the printer; no printf in this task
+            memcpy(snap, rx, sizeof(rx));
+            snap_rx_window = rx_frames_window;
             rx_frames_window = 0;
+
+            // Reset per-window stats; keep counter tracking (lost, too_fast are cumulative)
+            for (int i = 0; i < (int)N; i++) {
+                rx[i].frames = 0;
+                rx[i].min_gap_us = UINT32_MAX;
+                rx[i].max_gap_us = 0;
+            }
+
+            xTaskNotifyGive(report_handle);        // wake the printer
         }
     }
 }
@@ -265,8 +291,10 @@ void app_main(void) {
         return;
     }
 
-    // Priorities: RX highest so timestamps stay accurate
-    xTaskCreate(rx_task,    "can_rx",    4096, NULL, 7, NULL);
-    xTaskCreate(tx_task,    "can_tx",    4096, NULL, 6, NULL);
-    xTaskCreate(alert_task, "can_alert", 3072, NULL, 5, NULL);
+    // Priorities: RX highest so timestamps stay accurate; printing lowest.
+    // report_task must exist before rx_task so report_handle is valid.
+    xTaskCreate(report_task, "can_report", 4096, NULL, 1, &report_handle);
+    xTaskCreate(rx_task,     "can_rx",     4096, NULL, 7, NULL);
+    xTaskCreate(tx_task,     "can_tx",     4096, NULL, 6, NULL);
+    xTaskCreate(alert_task,  "can_alert",  3072, NULL, 5, NULL);
 }
