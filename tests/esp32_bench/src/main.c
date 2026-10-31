@@ -11,6 +11,7 @@
 #include <stdbool.h>
 #include <string.h>
 #include <inttypes.h>
+#include "driver/gpio.h"
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
 #include "driver/twai.h"
@@ -27,10 +28,28 @@
 #ifndef STRESS_HZ
 #define STRESS_HZ 0       // >0 = node 1 also sends filler ID 0x200 at this rate to raise bus load
 #endif
+#ifndef OPEN_DRAIN_BUS
+#define OPEN_DRAIN_BUS 0   // 1 = wire-only two-board bus using internal pull-ups
+#endif
 
 #define CAN_TX_PIN      GPIO_NUM_4     // ESP32 TX -> transceiver D / CTX
 #define CAN_RX_PIN      GPIO_NUM_5     // ESP32 RX <- transceiver R / CRX
-#define BITRATE         500000.0f
+#ifndef CAN_KBPS
+#define CAN_KBPS 500       // 125, 250, 500 or 1000
+#endif
+#define BITRATE         (CAN_KBPS * 1000.0f)
+
+#if CAN_KBPS == 1000
+#define CAN_TIMING() TWAI_TIMING_CONFIG_1MBITS()
+#elif CAN_KBPS == 500
+#define CAN_TIMING() TWAI_TIMING_CONFIG_500KBITS()
+#elif CAN_KBPS == 250
+#define CAN_TIMING() TWAI_TIMING_CONFIG_250KBITS()
+#elif CAN_KBPS == 125
+#define CAN_TIMING() TWAI_TIMING_CONFIG_125KBITS()
+#else
+#error "CAN_KBPS must be 125, 250, 500 or 1000"
+#endif
 #define BITS_PER_FRAME  125.0f         // 8-byte std frame incl. typical stuffing + IFS
 #define FILLER_ID       0x200
 
@@ -45,7 +64,7 @@ typedef struct {
 } Schedule;
 
 static const Schedule kSchedule[] = {
-    {0x050, 1,    5, "imu_like"},     // 200 Hz
+    {0x050, 1,    5, "imu_like"},     // 200 Hz (set to 1 for the 1 kHz test)
     {0x0A0, 2,   20, "vcu_cmd"},      //  50 Hz
     {0x100, 1,   10, "wheel_spd"},    // 100 Hz
     {0x300, 1,  100, "bms_like"},     //  10 Hz
@@ -91,9 +110,15 @@ static bool can_begin(void) {
     g.alerts_enabled = TWAI_ALERT_BUS_OFF | TWAI_ALERT_BUS_RECOVERED |
                        TWAI_ALERT_ERR_PASS | TWAI_ALERT_ERR_ACTIVE |
                        TWAI_ALERT_RX_QUEUE_FULL;
-    twai_timing_config_t t = TWAI_TIMING_CONFIG_500KBITS();
+    twai_timing_config_t t = CAN_TIMING();
     twai_filter_config_t f = TWAI_FILTER_CONFIG_ACCEPT_ALL();
-    return twai_driver_install(&g, &t, &f) == ESP_OK && twai_start() == ESP_OK;
+    if (twai_driver_install(&g, &t, &f) != ESP_OK) return false;
+#if OPEN_DRAIN_BUS
+    gpio_od_enable(CAN_TX_PIN);    // TX can only pull low; safe to join with other TX pins
+    gpio_pullup_en(CAN_TX_PIN);    // internal pull-ups hold the bus high (recessive)
+    gpio_pullup_en(CAN_RX_PIN);
+#endif
+    return twai_start() == ESP_OK;
 }
 
 static bool can_send(const CANframe *fr, uint32_t timeout_ms) {
@@ -120,7 +145,9 @@ static bool can_receive(CANframe *fr, uint32_t timeout_ms) {
 // Payload: bytes 0-3 = sequence counter; bytes 4-7 = sender's micros (debug only)
 static void tx_task(void *arg) {
     uint64_t now = esp_timer_get_time();
-    for (int i = 0; i < (int)N; i++) tx[i].next_us = now;
+    // Stagger start times by whole 1 ms ticks so messages never pile up in the same tick.
+    // (Offsets smaller than the 1 ms tick don't help: the task only checks once per tick.)
+    for (int i = 0; i < (int)N; i++) tx[i].next_us = now + (uint64_t)i * 1000;
     uint64_t filler_next_us = now;
     uint32_t filler_sent = 0;
     (void)filler_next_us;
@@ -283,8 +310,8 @@ static void rx_task(void *arg) {
 
 // ---------------- entry point ----------------
 void app_main(void) {
-    printf("CAN bench test; node %d; self_test=%d; stress=%d Hz; 500 kbps\n",
-           NODE, SELF_TEST, STRESS_HZ);
+    printf("CAN bench test; node %d; self_test=%d; stress=%d Hz; %d kbps; open_drain=%d\n",
+           NODE, SELF_TEST, STRESS_HZ, CAN_KBPS, OPEN_DRAIN_BUS);
 
     if (!can_begin()) {
         printf("TWAI init failed; check pins\n");
